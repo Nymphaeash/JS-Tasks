@@ -1,0 +1,20 @@
+.main-menu {
+    background-color: #969696;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: all .6s ease;
+    transform: translate(100%);
+}
+
+.menu-open,
+.menu-close {
+    cursor: pointer;
+}
+
+.transform00 {
+    transform: translate(0) !important;
+}

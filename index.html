@@ -1,13 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS TASKS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
 
+    <!-- 1. div tag icerisinde bir metn daxil edin ve metnde olan boşluqların sayını başka bir tag - de ekrana çıxarın -->
 
-    <script src="js/script.js"></script>
+    <div class="lorem-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam dolores, cupiditate
+        iure molestias fuga expedita deleniti autem, voluptates, blanditiis quae cumque corrupti sint reprehenderit
+        minus repellendus doloremque omnis error. </div>
+    <span class="space-number"></span>
+
+
+    <!-- 2. 10 li - den ibaret list yaradin, 5 - ci indexden sonra olan elementlerin her birinin kontentine 'Hello I am learning js' textini yazdirin -->
+
+    <div class="list_parts">
+
+    </div>
+
+
+    <!-- 3. P tag icerisinde bir metn daxil edin ve metnde olan sozlerin sayini hesablayan method yazin -->
+
+    <p id="text_p">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut non ab, accusamus, voluptatem, enim expedita fugit
+        assumenda quae provident aspernatur sequi libero dicta suscipit doloremque ducimus voluptatum! Dolorem, fugiat
+        necessitatibus.
+    </p>
+
+
+    <!-- 4. Div tag icerisinde metn daxil edin ve metnde olan butun sozlerin ilk herfini boyuk eden method yazin -->
+
+    <div id="first_letter">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id quasi, blanditiis deleniti, placeat magni fugiat
+        nihil facilis minus in fugit praesentium sapiente, accusantium veniam? Impedit qui iure blanditiis explicabo
+        nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus sed molestias obcaecati suscipit nam
+        laborum nulla expedita numquam. Perferendis, ea voluptates? Ratione architecto, perspiciatis delectus placeat
+        tempora vitae fugiat reprehenderit?
+    </div>
+
+
+    <!-- 5. Full ekrani tutan custom menu hazirlayin -->
+
+    <button type="button" id="menu-open" class="menu-open"><i class="fa-solid fa-bars"></i></button>
+
+    <div class="main-menu">
+        <button type="button" id="menu-close" class="menu-close"><i class="fa-solid fa-xmark"></i></button>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <!-- 6. Bir list yaradin(html - de) ve listin her li elementine click edende icerisinde yeni a tag yaransin ve icerisine content ve attribut elave edilsin -->
+
+
+    <ul id="new_list">
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+
+
+    <!-- 7. Bir list yaradin(html - de) her elemente click edende textin rengini ve font sizini deyisin -->
+
+    <ul id="new_list_parts">
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+
+
+    <!-- Sehife acilanda 10 - dan 1 - e qeder discount olan bir alqorithm yazin.Meselen ekran acilsin 10 gorunsun sonra 10, 9, 8, 7 .. 1 bu sekilde azalsın -->
+
+
+    <div id="discount">10</div>
+
+
+
+    <!-- 12. sozlerden ibaret bir array teyin edin, ve icerisindeki sozlerin uzunluqlari beraber olanlari bir tag icersinde ekrana cixarin -->
+
+    <div id="result">
+
+    </div>
+
+
+    <!-- 13. iki input(number) daxil edin, change oldugu zaman bu inputlardan gelen deyerlerin cemini hesablayan bir method yazin -->
+
+    <!-- <form action="">
+        <input type="number" id="first_number">
+        <input type="number" id="second_number">
+    </form>
+
+    <span id="summary_number">
+
+    </span> -->
+
+
+    <!-- 14. artan sira ile duzulmus bir metn teyin edin, meselen 1, 2, 3, 4, .. bu ededlerin her birine click edende 2 mislini hesablayib baska bir elementde ekrana cixarin -->
+
+    <div id="number_list"></div>
+    <p id="result">
+    </p>
+
+
+    <!-- 20. bir metn daxil edin sehife acilanda gorunmesin, herfleri her 1 saniyeden sonra ekrana cixsin -->
+
+    <p id="text" style="visibility:hidden;">Salam, bu mətn yavaş-yavaş görünəcək.</p>
+
+
+    <!-- 21. bir img tag daxil edin, button click olanda img alt deyerini ekrana cixaran bir alqorithm yazin -->
+
+    <button type="button" id="btn-click">CLICK ME</button>
+    <img id="img-alt" src="https://picsum.photos/200/300" alt="random">
+
+
+
+    <!-- <script src="js/script.js"></script> -->
+    <script src="js/4thLessonTasks.js"></script>
 </body>
+
 </html>
